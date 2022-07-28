@@ -27,6 +27,9 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
 
+    - name: Run chmod to make gradlew executable
+      run: chmod +x ./gradlew
+
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
     - name: Validate Gradle wrapper
