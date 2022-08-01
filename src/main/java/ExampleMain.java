@@ -7,6 +7,6 @@ public class ExampleMain {
 
     public static void someFunction()
     {
-        System.out.println("INVOKED SOME FUNCTION IN JAR");
+        System.out.println("INVOKED SOME FUNCTION IN JAR-testing versioning");
     }
 }
