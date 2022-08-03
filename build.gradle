@@ -31,6 +31,7 @@ publishing {
             name = "GitHub-packages"
             url = "https://maven.pkg.github.com/mrinalinichava/github-packages-example"
             credentials {
+                username = ""
                 password = System.getenv("TOKEN")
             }
         }
